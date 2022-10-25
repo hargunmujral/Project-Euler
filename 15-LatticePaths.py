@@ -1,6 +1,6 @@
 import math
 
-def latticePaths():
-    return math.comb(40, 20)
+def latticePaths(n):
+    return math.comb(2 * n, n)
 
-print(latticePaths())
+print(latticePaths(20))
